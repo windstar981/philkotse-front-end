@@ -1,0 +1,795 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="scss/main.css">
+    <link rel="stylesheet" href="scss/review.css">
+    <link rel="stylesheet" href="scss/listcar.css">
+    <title>Philkotse</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="https://philkotse.com/favicon.ico?v=2">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!-- swiper slide  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- end swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="wr_wrapper">
+        <div class="header-fix fix-theme-old" style="height: 106px;">
+            <div id="header" class="header">
+                <div class="header-top">
+                    <div class="container">
+                        <a href="#" class="logo"></a>
+                        <div class="box-spotlight-new">
+                            <div class="item-spotlight-new">
+                                <span class="title" title="Spotlight"> Spotlight: </span>
+                                <a title="ToyotaRaizeReview" href="#">ToyotaRaizeReview </a>
+                                <a title="RaizeVsStonic" href="#">RaizeVsStonic </a>
+                                <a title="GeelySedanLaunch" href="#">GeelySedanLaunch</a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navi">
+                    <div class="container">
+                        <ul class="menu-top">
+                            <li class="car-for-sale"> <a id="nav_car" href="#" class="">Cars for sale</a>
+                                <div class="sub-menu-car-for-sale" id="menu_brand">
+                                    <div class="container">
+                                        <ul class="list-brand brandall-car">
+                                            <li class="i-toyota">
+                                                <a href="#"> <span class="name"></span> <span class="text-ellipsis"> Toyota   </span> </a>
+                                            </li>
+                                            <li class="i-mg">
+                                                <a href="#"> <span class="name"></span> <span class="text-ellipsis"> MG   </span> </a>
+                                            </li>
+                                            <li class="i-chery">
+                                                <a href="#"> <span class="name"></span> <span class="text-ellipsis"> Chery   </span> </a>
+                                            </li>
+                                            <li class="i-honda">
+                                                <a href="#"> <span class="name"></span> <span class="text-ellipsis"> Honda   </span> </a>
+                                            </li>
+                                            <li class="i-mitsubishi">
+                                                <a href="#"> <span class="name"></span> <span class="text-ellipsis"> Mitsubishi   </span> </a>
+                                            </li>
+                                            <li class="i-hyundai">
+                                                <a href="#"> <span class="name"></span> <span class="text-ellipsis"> Hyundai   </span> </a>
+                                            </li>
+                                            <li class="i-ford">
+                                                <a href="#"> <span class="name"></span> <span class="text-ellipsis"> Ford   </span> </a>
+                                            </li>
+                                            <li class="i-nissan">
+                                                <a href="#"> <span class="name"></span> <span class="text-ellipsis"> Nissan   </span> </a>
+                                            </li>
+                                            <li class="i-kia">
+                                                <a href="#"> <span class="name"></span> <span class="text-ellipsis"> Kia   </span> </a>
+                                            </li>
+                                            <li class="i-isuzu">
+                                                <a href="#"> <span class="name"></span> <span class="text-ellipsis"> Isuzu   </span> </a>
+                                            </li>
+                                            <li class="i-suzuki">
+                                                <a href="#"> <span class="name"></span> <span class="text-ellipsis"> Suzuki   </span> </a>
+                                            </li>
+                                            <li class="i-mazda">
+                                                <a href="#"> <span class="name"></span> <span class="text-ellipsis"> Mazda   </span> </a>
+                                            </li>
+                                        </ul>
+                                        <a href="#" class="more"> View all car brands <i class="fa-solid fa-angle-right"></i></a> </div>
+                                </div>
+                            </li>
+                            <li class="menu-new-car"> <a href="/car-prices-philippines" class="">New cars</a>
+                                <div class="sub-menu-new-car">
+                                    <div class="container">
+                                        <div class="b-left"> <a href="/car-prices-philippines" class="">Search for new car</a> <a href="/all-promotions-in-the-philippines" class="">Car promos</a> <a href="/auto-dealerships-in-the-philippines" class="">Car dealerships</a>                                            <a href="/new-car-comparison?type=11&amp;compare=" class="">Compare new car</a> </div>
+                                        <div class="b-right d-flex  flex-wrap">
+                                            <div>1</div>
+                                            <div>1</div>
+                                            <div>1</div>
+                                            <div>1</div>
+                                            <div>1</div>
+                                            <div>1</div>
+                                            <div>1</div>
+                                            <div>1</div>
+                                            <div>1</div>
+                                            <div>1</div>
+                                            <div>1</div>
+                                            <div>1</div>
+                                            <div>1</div>
+                                            <div>1</div>
+                                            <div>1</div>
+                                            <div>1</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="">Used cars</a>
+                                <ul class="sub-menu-new">
+                                    <li class="hidden"> <a href="#" class="">Search for used car</a> </li>
+                                    <li> <a class="" href="">By body type</a>
+                                        <div class="sub-menu-new-level-2">
+                                            <ul class="list">
+                                                <li>
+                                                    <a class="" href="#" title="Used suv for sale philippines">SUV</a>
+                                                    <a class="" href="#" title="Second hand sedan for sale">Sedan</a>
+                                                    <a class="" href="#" title="Used hatchback cars for sale">Hatchback</a>
+                                                    <a class="" href="#=">Van</a>
+                                                    <a class=" " href="# " title="Second hand mini van for sale ">Minivan</a>
+                                                    <a class=" " href="# " title="Second hand pickup for sale ">Truck</a>
+                                                    <a class=" " href="# ">MPV</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li> <a class=" " href="#"> By price range</a>
+                                        <div class="sub-menu-new-level-2 ">
+                                            <ul class="list ">
+                                                <li>
+                                                    <a class=" " href="#" title="Cars for sale under 1000k ">Under ₱1.000.000</a>
+                                                    <a class=" " href="#" title="Cheapest car in the philippines under 750k ">Under ₱750.000</a>
+                                                    <a class=" " href="#" title="Cheapest car in the philippines under 500k">Under ₱500.000</a>
+                                                    <a class=" " href="#" title="Cheapest car in the philippines under 300k ">Under ₱300.000</a>
+                                                    <a class=" " href="#" title="Cheapest car in the philippines under 200k ">Under ₱200.000</a>
+                                                    <a class=" " href="#" title="Cheapest car in the philippines under 150k ">Under ₱150.000</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li> <a class=" " href="#">By location</a>
+                                        <div class="sub-menu-new-level-2 ">
+                                            <ul class="list ">
+                                                <li>
+                                                    <a class=" " href="#" title="Used car for sale in Cagayan ">Cagayan</a>
+                                                    <a class=" " href="#" title="Used car for sale in Pampanga ">Pampanga</a>
+                                                    <a class=" " href="#" title="Used car for sale in Cebu ">Cebu</a>
+                                                    <a class=" " href="#" title="Used car for sale in Iloilo">Iloilo</a>
+                                                    <a class=" " href="#" title="Used car for sale in Metro Manila ">Metro Manila</a>
+                                                    <a class=" " href="#" title="Used car for sale in Baguio Benguet ">Baguio Benguet</a>
+                                                    <a class="" href="#" title="Used car for sale in Pangasinan ">Pangasinan</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="hidden "> <a href="#" rel="nofollow " class=" ">Sell my car</a> </li>
+                                    <li class="hidden "> <a href="#" rel="nofollow " class=" ">Compare used cars</a> </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="">News and Review</a>
+                                <ul class="sub-menu-new">
+                                    <li class="hidden"> <a href="#" class="">Search for used car</a> </li>
+                                    <li> <a class="" href="#">By body type</a>
+                                        <div class="sub-menu-new-level-2">
+                                            <ul class="list">
+                                                <li>
+                                                    <a class="" href="#" title="Used suv for sale philippines">SUV</a>
+                                                    <a class="" href="#" title="Second hand sedan for sale">Sedan</a>
+                                                    <a class="" href="#" title="Used hatchback cars for sale">Hatchback</a>
+                                                    <a class="" href="#=">Van</a>
+                                                    <a class=" " href="# " title="Second hand mini van for sale ">Minivan</a>
+                                                    <a class=" " href="# " title="Second hand pickup for sale ">Truck</a>
+                                                    <a class=" " href="# ">MPV</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li> <a class=" " href="#"> By price range</a>
+                                        <div class="sub-menu-new-level-2 ">
+                                            <ul class="list ">
+                                                <li>
+                                                    <a class=" " href="#" title="Cars for sale under 1000k ">Under ₱1.000.000</a>
+                                                    <a class=" " href="#" title="Cheapest car in the philippines under 750k ">Under ₱750.000</a>
+                                                    <a class=" " href="#" title="Cheapest car in the philippines under 500k">Under ₱500.000</a>
+                                                    <a class=" " href="#" title="Cheapest car in the philippines under 300k ">Under ₱300.000</a>
+                                                    <a class=" " href="#" title="Cheapest car in the philippines under 200k ">Under ₱200.000</a>
+                                                    <a class=" " href="#" title="Cheapest car in the philippines under 150k ">Under ₱150.000</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li> <a class=" " href="#">By location</a>
+                                        <div class="sub-menu-new-level-2 ">
+                                            <ul class="list ">
+                                                <li>
+                                                    <a class=" " href="#" title="Used car for sale in Cagayan ">Cagayan</a>
+                                                    <a class=" " href="#" title="Used car for sale in Pampanga ">Pampanga</a>
+                                                    <a class=" " href="#" title="Used car for sale in Cebu ">Cebu</a>
+                                                    <a class=" " href="#" title="Used car for sale in Iloilo">Iloilo</a>
+                                                    <a class=" " href="#" title="Used car for sale in Metro Manila ">Metro Manila</a>
+                                                    <a class=" " href="#" title="Used car for sale in Baguio Benguet ">Baguio Benguet</a>
+                                                    <a class="" href="#" title="Used car for sale in Pangasinan ">Pangasinan</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="hidden "> <a href="#" rel="nofollow " class=" ">Sell my car</a> </li>
+                                    <li class="hidden "> <a href="#" rel="nofollow " class=" ">Compare used cars</a> </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="">Car comparisons</a>
+                            </li>
+                            <li class="more-menu">
+
+                                <ul class="sub-menu-new">
+                                    <li> <a href="#" class="">Become out partner</a> </li>
+                                    <li> <a href="#" class="">Loan calculator</a> </li>
+                                    <li> <a href="#" class="">Car insurance</a> </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="right-menu">
+                            <div class="box-acc" id="box-user"> <span class="btn-acc"><i class="icon-user"></i></span>
+                                <div class="acc-head">
+                                    <div class="login-signgup">
+                                        <a href="#" class="btn-login " rel="nofollow">
+                                            <i class="fa-solid fa-user"></i> Login
+                                        </a>
+                                        <a class="btn-regis" href="#" rel="nofollow">
+                                            <i class="fa-solid fa-lock"></i> Sign up
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box-search-h">
+                                <span class="btn-search" id="show-tab-search-text"><i class="fa-solid fa-magnifying-glass"></i></span>
+                                <div class="box-search-head">
+                                    <input class="input-text input-search-suggestion ui-autocomplete-input" id="txtKeywordSearchHome" placeholder="search by keywords" type="text" autocomplete="off">
+                                    <div class="btn-search-text" id="searchAutoText"><span><i class="fa-solid fa-magnifying-glass"></i></span></div>
+                                    <div class="search-recommend">
+                                        <ul>
+                                            <li>
+                                                <a class="get-text-recommend" href="#">Recommend 1</a>
+                                            </li>
+                                            <li>
+                                                <a class="get-text-recommend" href="#">Recommend 2</a>
+                                            </li>
+                                            <li>
+                                                <a class="get-text-recommend" href="#">Recommend 3</a>
+                                            </li>
+                                            <li>
+                                                <a class="get-text-recommend" href="#">Recommend 4</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="btn-sell-mycar ss-slab"> Sell my car
+                                <span class="tootip"> Tip: Creating a listing on
+                                    <strong>Philkotse.com</strong> will help your
+                                    car reach nearly <strong> 300 potential
+                                        buyers within the first week!
+                                    </strong> </span> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <main>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-9">
+                        <div class="box-top-car-review">
+                            <div class="item-big d-flex">
+                                <div class="wrap-img">
+                                    <img src="images/review/item-big.jpg" alt="">
+                                </div>
+                                <div class="main-content">
+                                    <h3 class="title">2022 Toyota Raize First Impressions Review | Philkotse Philippines</h3>
+                                    <div class="car-price">
+                                        <span class="car-title">Car price</span>
+                                        <span class="number-price">₱1,031,000</span>
+                                    </div>
+                                    <p class="editor-rate">Editor's rating:</p>
+                                    <p class="parameter">CVT | SUV/Crossover</p>
+                                    <a href="#" class="float-end">Full Review</a>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-4">
+                                    <div class=" item-small rounded-bottom" >
+                                        <img src="images/review/tc1.jpg" class="w-100"  alt="">
+                                        <div class="info">
+                                            <h3 class="title">2022 Geely Emgrand Review | Philkotse Philippines</h3>
+                                            <p><span class="icon-car"><i class="fa-solid fa-car"></i> Sedan</span> <span class="rate-number">4.1/5</span></p>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-4">
+                                    <div class=" item-small rounded-bottom" >
+                                        <img src="images/review/tc2.jpg" class="w-100"  alt="">
+                                        <div class="info">
+                                            <h3 class="title">2022 Geely Emgrand Review | Philkotse Philippines</h3>
+                                            <p><span class="icon-car"><i class="fa-solid fa-car"></i> Sedan</span> <span class="rate-number">4.1/5</span></p>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-4">
+                                    <div class=" item-small rounded-bottom" >
+                                        <img src="images/review/tc3.jpg" class="w-100"  alt="">
+                                        <div class="info">
+                                            <h3 class="title">2022 Nissan Almera Review | Philkotse Philippines</h3>
+                                            <p><span class="icon-car"><i class="fa-solid fa-car"></i> Sedan</span> <span class="rate-number">4.0/5</span></p>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post-review mt-5">
+                            <h3 class="heading">RECENT REVIEWS</h3>
+                            <div class="post w-100 d-flex mt-4">
+                                <div class="wrap-img"> 
+                                    <img src="images/review/p1.jpg" width="370px" height="152px" alt="">
+                                </div>
+                                <div class="main-content">
+                                    <h3 class="title">
+                                        2023 Mitsubishi Xpander First Impressions Review | Philkotse Philippines
+                                    </h3>
+                                    <p>Car price: <span class="number-price">₱1,160,000</span></p>
+                                    <p class="parameter"><span>Automatic</span> <span><i class="fa-solid fa-car"></i>MPV</span> </p>
+                                </div>
+                            </div>
+                            <div class="post w-100 d-flex mt-4">
+                                <div class="wrap-img"> 
+                                    <img src="images/review/p1.jpg" width="370px" height="152px" alt="">
+                                </div>
+                                <div class="main-content">
+                                    <h3 class="title">
+                                        2023 Mitsubishi Xpander First Impressions Review | Philkotse Philippines
+                                    </h3>
+                                    <p>Car price: <span class="number-price">₱1,160,000</span></p>
+                                    <p class="parameter"><span>Automatic</span> <span><i class="fa-solid fa-car"></i>MPV</span> </p>
+                                </div>
+                            </div>
+                            <div class="post w-100 d-flex mt-4">
+                                <div class="wrap-img"> 
+                                    <img src="images/review/p1.jpg" width="370px" height="152px" alt="">
+                                </div>
+                                <div class="main-content">
+                                    <h3 class="title">
+                                        2023 Mitsubishi Xpander First Impressions Review | Philkotse Philippines
+                                    </h3>
+                                    <p>Car price: <span class="number-price">₱1,160,000</span></p>
+                                    <p class="parameter"><span>Automatic</span> <span><i class="fa-solid fa-car"></i>MPV</span> </p>
+                                </div>
+                            </div>
+                            <div class="post w-100 d-flex mt-4">
+                                <div class="wrap-img"> 
+                                    <img src="images/review/p1.jpg" width="370px" height="152px" alt="">
+                                </div>
+                                <div class="main-content">
+                                    <h3 class="title">
+                                        2023 Mitsubishi Xpander First Impressions Review | Philkotse Philippines
+                                    </h3>
+                                    <p>Car price: <span class="number-price">₱1,160,000</span></p>
+                                    <p class="parameter"><span>Automatic</span> <span><i class="fa-solid fa-car"></i>MPV</span> </p>
+                                </div>
+                            </div>
+                            <div class="post w-100 d-flex mt-4">
+                                <div class="wrap-img"> 
+                                    <img src="images/review/p1.jpg" width="370px" height="152px" alt="">
+                                </div>
+                                <div class="main-content">
+                                    <h3 class="title">
+                                        2023 Mitsubishi Xpander First Impressions Review | Philkotse Philippines
+                                    </h3>
+                                    <p>Car price: <span class="number-price">₱1,160,000</span></p>
+                                    <p class="parameter"><span>Automatic</span> <span><i class="fa-solid fa-car"></i>MPV</span> </p>
+                                </div>
+                            </div>
+                            <div class="post w-100 d-flex mt-4">
+                                <div class="wrap-img"> 
+                                    <img src="images/review/p2.jpg" width="370px" height="152px" alt="">
+                                </div>
+                                <div class="main-content">
+                                    <h3 class="title">
+                                        2023 Mitsubishi Xpander First Impressions Review | Philkotse Philippines
+                                    </h3>
+                                    <p>Car price: <span class="number-price">₱1,160,000</span></p>
+                                    <p class="parameter"><span>Automatic</span> <span><i class="fa-solid fa-car"></i>MPV</span> </p>
+                                    <p class="float-end editor-text"><span>Editor's: <span class="rate-number">3.8/5</span></p>
+                                </div>
+                            </div>
+                            <div class="post w-100 d-flex mt-4">
+                                <div class="wrap-img"> 
+                                    <img src="images/review/p2.jpg" width="370px" height="152px" alt="">
+                                </div>
+                                <div class="main-content">
+                                    <h3 class="title">
+                                        2023 Mitsubishi Xpander First Impressions Review | Philkotse Philippines
+                                    </h3>
+                                    <p>Car price: <span class="number-price">₱1,160,000</span></p>
+                                    <p class="parameter"><span>Automatic</span> <span><i class="fa-solid fa-car"></i>MPV</span> </p>
+                                    <p class="float-end editor-text"><span>Editor's: <span class="rate-number">3.8/5</span></p>
+                                </div>
+                            </div>
+                            <div class="post w-100 d-flex mt-4">
+                                <div class="wrap-img"> 
+                                    <img src="images/review/p3.jpg" width="370px" height="152px" alt="">
+                                </div>
+                                <div class="main-content">
+                                    <h3 class="title">
+                                        2023 Mitsubishi Xpander First Impressions Review | Philkotse Philippines
+                                    </h3>
+                                    <p>Car price: <span class="number-price">₱1,160,000</span></p>
+                                    <p class="parameter"><span>Automatic</span> <span><i class="fa-solid fa-car"></i>MPV</span> </p>
+                                    <p class="float-end editor-text"><span>Editor's: <span class="rate-number">4.3/5</span></p>
+                                </div>
+                            </div>
+                            <div class="post w-100 d-flex mt-4">
+                                <div class="wrap-img"> 
+                                    <img src="images/review/p4.jpg" width="370px" height="152px" alt="">
+                                </div>
+                                <div class="main-content">
+                                    <h3 class="title">
+                                        2023 Mitsubishi Xpander First Impressions Review | Philkotse Philippines
+                                    </h3>
+                                    <p>Car price: <span class="number-price">₱1,160,000</span></p>
+                                    <p class="parameter"><span>Automatic</span> <span><i class="fa-solid fa-car"></i>MPV</span> </p>
+                                    <p class="float-end editor-text"><span>Editor's: <span class="rate-number">3.8/5</span></p>
+                                </div>
+                            </div>
+                            <div class="post w-100 d-flex mt-4">
+                                <div class="wrap-img"> 
+                                    <img src="images/review/p1.jpg" width="370px" height="152px" alt="">
+                                </div>
+                                <div class="main-content">
+                                    <h3 class="title">
+                                        2023 Mitsubishi Xpander First Impressions Review | Philkotse Philippines
+                                    </h3>
+                                    <p>Car price: <span class="number-price">₱1,160,000</span></p>
+                                    <p class="parameter"><span>Automatic</span> <span><i class="fa-solid fa-car"></i>MPV</span> </p>
+                                </div>
+                            </div>
+                            <div class="post w-100 d-flex mt-4">
+                                <div class="wrap-img"> 
+                                    <img src="images/review/p1.jpg" width="370px" height="152px" alt="">
+                                </div>
+                                <div class="main-content">
+                                    <h3 class="title">
+                                        2023 Mitsubishi Xpander First Impressions Review | Philkotse Philippines
+                                    </h3>
+                                    <p>Car price: <span class="number-price">₱1,160,000</span></p>
+                                    <p class="parameter"><span>Automatic</span> <span><i class="fa-solid fa-car"></i>MPV</span> </p>
+                                    <p class="float-end editor-text"><span>Editor's: <span class="rate-number">3.8/5</span></p>
+                                </div>
+                            </div>
+                            <div class="post w-100 d-flex mt-4">
+                                <div class="wrap-img"> 
+                                    <img src="images/review/p1.jpg" width="370px" height="152px" alt="">
+                                </div>
+                                <div class="main-content">
+                                    <h3 class="title">
+                                        2023 Mitsubishi Xpander First Impressions Review | Philkotse Philippines
+                                    </h3>
+                                    <p>Car price: <span class="number-price">₱1,160,000</span></p>
+                                    <p class="parameter"><span>Automatic</span> <span><i class="fa-solid fa-car"></i>MPV</span> </p>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-4 justify-content-center mb-5">
+                                <nav aria-label="Page navigation example">
+                                    <ul class="pagination">
+                                      <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Previous">
+                                          <span aria-hidden="true">&laquo;</span>
+                                        </a>
+                                      </li>
+                                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                      <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Next">
+                                          <span aria-hidden="true">&raquo;</span>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </nav>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="col-3 right-content">
+                        <h3 class="title mb-0">
+                            SEARCH CAR REVIEWS
+                        </h3>
+                        <div class="box-search">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search by keywords">
+                                <span class="input-group-text"><i class="fa-solid fa-magnifying-glass"></i></span>
+                            </div>
+                            <select class="form-select mt-2" aria-label="Default select example">
+                                <option selected>Brand</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                            <select class="form-select mt-2" aria-label="Default select example">
+                                <option selected>Model</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                              <select class="form-select mt-2" aria-label="Default select example">
+                                <option selected>Body type</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                            <p class="btn bg-success text-center w-100 text-white mt-2 mb-0">Search</p>
+                        </div>
+                        
+                        <h3 class="title mt-4 mb-0">
+                            REVIEW BY BRAND
+                        </h3>
+                        <div class="d-flex flex-wrap list-brand w-100">
+                            <div class="item text-center border">
+                                <img src="images/review/toyota.png" alt="">
+                                <p>Toyota</p>
+                            </div>
+                            <div class="item text-center border">
+                                <img src="images/review/mitsubishi.png" alt="">
+                                <p>Mitsubishi</p>
+                            </div>
+                            <div class="item text-center border">
+                                <img src="images/review/ford.png" alt="">
+                                <p>Ford</p>
+                            </div>
+                            <div class="item text-center border">
+                                <img src="images/review/honda.png" alt="">
+                                <p>Honda</p>
+                            </div>
+                            <div class="item text-center border">
+                                <img src="images/review/isuzu.png" alt="">
+                                <p>Isuzu</p>
+                            </div>
+                            <div class="item text-center border">
+                                <img src="images/review/chevrolet.png" alt="">
+                                <p>Chevrolet</p>
+                            </div>
+                            <div class="item text-center border">
+                                <img src="images/review/mazda.png" alt="">
+                                <p>Mazda</p>
+                            </div>
+                            <div class="item text-center border">
+                                <img src="images/review/hyundai.png" alt="">
+                                <p>Hyundai</p>
+                            </div>
+                            <div class="item text-center border">
+                                <img src="images/review/kia.png" alt="">
+                                <p>Kia</p>
+                            </div>  
+                        </div>
+                        <h3 class="title mt-4 mb-0">
+                            REVIEW BY BODY TYPE
+                        </h3>
+                        <div class="review-by-body-type">
+                            <div class="row">
+                                <div class="col-6 mb-3">
+                                    <div class="border text-center pt-3">
+                                        <img src="images/review/commercial.png" alt="">
+                                        <p>Commercial</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 mb-3">
+                                    <div class="border text-center pt-3">
+                                        <img src="images/review/commercial.png" alt="">
+                                        <p>Commercial</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 mb-3">
+                                    <div class="border text-center pt-3">
+                                        <img src="images/review/commercial.png" alt="">
+                                        <p>Commercial</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 mb-3">
+                                    <div class="border text-center pt-3">
+                                        <img src="images/review/commercial.png" alt="">
+                                        <p>Commercial</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 mb-3">
+                                    <div class="border text-center pt-3">
+                                        <img src="images/review/commercial.png" alt="">
+                                        <p>Commercial</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 mb-3">
+                                    <div class="border text-center pt-3">
+                                        <img src="images/review/commercial.png" alt="">
+                                        <p>Commercial</p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="border text-center pt-3">
+                                        <img src="images/review/commercial.png" alt="">
+                                        <p>Commercial</p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="border text-center pt-3">
+                                        <img src="images/review/commercial.png" alt="">
+                                        <p>Commercial</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <h3 class="title mt-4 mb-0">
+                            RECENT LISTINGS
+                        </h3>
+                        <div class="w-100 recent-list">
+                            <div class="wrap-img">
+                                <span><i class="fa-solid fa-heart"></i><span class="text">Used</span></span>
+                                <img src="images/review/rl1.jpg"  class="w-100"alt="">
+                            </div>
+                            <div class="main-content rounded-bottom">
+                                <h4>
+                                    Grey Ford Everest 2015 for sale in Pasay
+                                </h4>
+                                <p class="location">
+                                    <span><i class="fa-solid fa-location-dot"></i></span>Metro Manila, Pasay
+                                </p>
+                                <p class="price">₱1,198,000</p>
+                                <p class="parameter"><span>Automatic</span> <span><i class="fa-solid fa-gauge-high"></i>47,000KM</span></p>
+                            </div>
+                        </div>
+                        <div class="w-100 recent-list mt-4">
+                            <div class="wrap-img">
+                                <span><i class="fa-solid fa-heart"></i><span class="text">Used</span></span>
+                                <img src="images/review/rl2.jpg"  class="w-100"alt="">
+                            </div>
+                            <div class="main-content rounded-bottom">
+                                <h4>
+                                    Grey Ford Everest 2015 for sale in Pasay
+                                </h4>
+                                <p class="location">
+                                    <span><i class="fa-solid fa-location-dot"></i></span>Metro Manila, Pasay
+                                </p>
+                                <p class="price">₱1,198,000</p>
+                                <p class="parameter"><span>Automatic</span> <span><i class="fa-solid fa-gauge-high"></i>47,000KM</span></p>
+                            </div>
+                        </div>
+                        <div class="w-100 recent-list mt-4">
+                            <div class="wrap-img">
+                                <span><i class="fa-solid fa-heart"></i><span class="text">Used</span></span>
+                                <img src="images/review/rl3.jpg"  class="w-100"alt="">
+                            </div>
+                            <div class="main-content rounded-bottom">
+                                <h4>
+                                    Grey Ford Everest 2015 for sale in Pasay
+                                </h4>
+                                <p class="location">
+                                    <span><i class="fa-solid fa-location-dot"></i></span>Metro Manila, Pasay
+                                </p>
+                                <p class="price">₱1,198,000</p>
+                                <p class="parameter"><span>Automatic</span> <span><i class="fa-solid fa-gauge-high"></i>47,000KM</span></p>
+                            </div>
+                        </div>
+                        <h3 class="heading mt-4">LATEST NEW CARS</h3>
+                            <div class="box-gray-a pb-0">
+                                <ul class="list-from-price">
+                                    <li class="big">
+                                        <a href="#" class="photo">
+                                            <img class="lazy-hidden lazy-load-success w-100" height="153px" src="/images/listcar/untitled-design-2021-12-09t113254-198-d9ed-wm-1246_wm.jpg" alt="">
+                                        </a>
+                                        <h3 class="title mt-2 mb-0">
+                                            <a href="#">Volkswagen Multivan Kombi Instargram Toyota</a>
+                                        </h3>
+                                        <span class="price">
+                                            ₱ 3,595,000 - ₱ 3,640,000
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img class="photo lazy-hidden lazy-load-success " src="/images/listcar/img-7310-5-11zon-61e5_wm.jpg" alt="">
+                                        </a>
+                                        <h3 class="title" style="height:20px">
+                                            <a href="#">Geely Emgrand</a>
+                                        </h3>
+                                        <span class="price"> 798,000 - ₱ 908,000</span>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img class="photo lazy-hidden lazy-load-success" src="/images/listcar/img-6552-1-11zon-5278_wm.jpg" alt="">
+                                        </a>
+                                        <h3 class="title" style="height:20px">
+                                            <a href="#">Toyota Raize</a>
+                                        </h3>
+                                        <span class="price"> ₱ 746,000 - ₱ 1,036,000</span>
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class=" footer-top">
+                <div class="container ">
+                    <div class="footer-top-left ">
+                        <a href="# ">About us</a> |
+                        <a href="# ">Terms of service</a> |
+                        <a href="# ">Privacy policy</a> |
+                        <a href="# ">Site map</a> |
+                        <a href="# ">Support</a> |
+                        <a href="# ">Help desk</a> |
+                        <a href="# ">Be our partner</a> |
+                        <a href="# ">Car listing tips</a>
+                    </div>
+                    <div class="footer-top-right ">
+                        <a href="# "><i class="fa-brands fa-facebook "></i></a>
+                        <a href="# "><i class="fa-brands fa-facebook "></i></a>
+                        <a href="# "><i class="fa-brands fa-facebook "></i></a>
+                        <a href="# "><i class="fa-brands fa-facebook "></i></a>
+                    </div>
+        
+                </div>
+            </div>
+            <div class="footer-bottom ">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-3 ft-bt-1 mt-5 ">
+                            <img src="images/home/logo-philkotse-white-ft.png " alt=" ">
+                        </div>
+                        <div class="col-4 ft-bt-2 mt-5">
+                            <h2>MAXSPEED AUTOPORTAL INC.</h2>
+                            <p><span><i class="fa-solid fa-location-dot"></i></span>19th Floor, The IBP Tower, Jade Dr, San Antonio, Pasig, Metro Manila, Philippines</p>
+                            <p>
+                                <span><i class="fa-solid fa-phone"></i></span>09481334353 (SMART) - 09260673939 (GLOBE)</p>
+                            <p><span><i class="fa-solid fa-envelope"></i></span>support@philkotse.com</p>
+                        </div>
+                        <div class="col-5 mt-5">
+                            <div class="row">
+                                <div class="icon-store-phone mt-4">
+                                    <img src="images/home/icon-app-googleplay.png" alt="">
+                                    <img src="images/home/icon-app-googleplay.png" alt="">
+                                </div>
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="copyright text-center">
+                <p>Copyright © 2017 - 2022 Philkotse.com. All rights reserved.</p>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.6.0.js " integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin=" anonymous "></script>
+        <script src="js/main.js ">
+        </script>
+        </body>
+        <script type="text/javascript " src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js "></script>
+        
+        
+        <script type="text/javascript " src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js "></script>
+        
+        </html>

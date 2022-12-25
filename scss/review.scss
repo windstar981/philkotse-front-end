@@ -1,0 +1,233 @@
+.box-top-car-review{
+    background: #f3ffff;
+    box-shadow: 4px 4px 20px rgba(0,0,0,.2),inset 0 -3px 0 #f60;
+    padding: 20px 20px 30px;
+    .item-big{
+        border-bottom: 1px solid rgb(224, 224, 224);
+        .wrap-img{
+            width: 545px;
+            height: 222px;
+            img{
+                width:100%;
+                height:100%;
+            }
+        }
+        .main-content {
+            padding-left: 20px;
+            a{
+                
+                margin-bottom: 35px;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 21px;
+                color: #2070d2;
+                padding-right: 20px;
+            }
+            .car-price {
+                margin-top:10px;
+                background: #2070d2;
+                border-radius: 5px;
+                display: inline-block;
+                height: 36px;
+                min-width: 207px;
+                padding: 3px;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 30px;
+                color: #fff;
+                .car-title{
+                    width: 87px;
+                    height: 30px;
+                    background: #41c9a7;
+                    border-radius: 3px;
+                    display: inline-block;
+                    text-transform: capitalize;
+                    text-align: center;
+                }
+                .number-price{
+                    padding-left: 15px;
+                }
+            }
+            .editor-rate{
+                margin-top: 16px;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 20px;
+                color: #333;
+            }
+            .parameter{
+                margin-top: 12px;
+                font-size: 14px;
+                font-weight: normal;
+                color: #333;
+                margin-bottom:0px;
+            }
+        }
+    }
+    .item-small{
+        box-shadow: 4px 4px 20px rgb(0 0 0 / 15%);
+        .info{
+            background-color: white;
+            padding-left: 10px;
+            padding-bottom:10px;
+           
+            h3{
+                margin-top:10px;
+            }
+            .icon-car{
+                color: #999;
+                padding-right: 10px;
+                i{
+                    padding-right:5px;
+                }
+            }
+            .rate-number{
+                padding-left: 15px;
+                border-left: 1px solid #ddd;
+                color: #f60;
+                font-weight: bold;
+            }
+        }
+    }
+}
+.title{
+    margin: 0;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    color: #333;
+    height: 56px;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+.post-review{
+    .heading{
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 32px;
+        color: #333;
+        margin: 0;
+    }
+    .post{
+        box-shadow: 4px 4px 20px rgb(0 0 0 / 15%);
+        background-color: white;
+        padding:15px;
+        .main-content{
+            padding-left: 15px;
+            .number-price{
+                color: #2070d2;
+                font-weight: bold;
+            }
+            span{
+                
+                padding-right: 10px;
+                i{
+                    padding-left: 15px;
+                    padding-right:5px;
+                    border-left: 1px solid #999;
+                    color: #999;
+
+                }
+            }
+            .editor-text{
+                margin-top:-80px;
+                background-color: #f3f3f3;
+                padding: 5px 0px 5px 20px;
+                border-radius: 5px;
+                .rate-number{
+                    color: #f60;
+                    
+                }
+            }
+        }
+    }
+}
+.right-content{
+    .box-search{
+        background: #2070d2;
+        padding: 20px;
+        
+    }
+    .item{
+        width: 33.333%;
+        height: 95px;
+        img{
+            padding-top:10px;
+            height: 50px;
+            p{
+                padding-bottom:0px;
+            }
+        }
+    }
+}
+.recent-list{
+    .wrap-img{
+        span{
+            position:absolute;
+            i{
+                padding-top:10px;
+                color: white;
+                padding-left: 10px;
+            }
+            .text{
+                top: 5px;
+                left: 43px;
+                z-index: 1;
+                background: #fff0e6;
+                border-radius: 3px;
+                text-align: center;
+                width: 44px;
+                height: 30px;
+                line-height: 30px;
+                font-weight: 500;
+                font-size: 14px;
+                color: #f60;
+            }
+        }
+    }
+    .main-content{
+        
+        border: 2px solid #ddd;
+        padding:10px;
+        h4{
+            color: #515356;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        .location{
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            margin: 0;
+            font-weight: normal;
+            font-size: 14px;
+            color: #999;
+            line-height: 16px;
+            margin-bottom: 8px;
+            i{
+                padding-right: 5px;
+            }
+            
+        }
+        .price{
+            font-size: 20px;
+            color: #515356;
+            line-height: 23px;
+            font-weight: 700;
+            margin: 0;
+            margin-bottom: 8px;
+        }
+        .parameter{
+            span{
+                color:#999;
+                padding-right: 10px;
+                i{
+                    border-left: 1px solid #999;
+                    padding-left: 10px;
+                    padding-right: 5px;
+                }
+            }
+        }
+        
+    }
+}

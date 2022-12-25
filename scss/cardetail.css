@@ -1,0 +1,495 @@
+.box-car-detail .header h1 {
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #f60;
+  margin: 0;
+  margin-bottom: 5px;
+}
+.box-car-detail .header h1:before {
+  content: "";
+  width: 19px;
+  height: 19px;
+  display: inline-block;
+  margin-right: 8px;
+  background: url("../images/listcar/icon-diamond.png") no-repeat 0 0;
+  margin-bottom: -2px;
+}
+.box-car-detail .header p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #666;
+  margin: 0;
+  margin-bottom: 5px;
+}
+.box-car-detail .header p span {
+  color: blue;
+}
+.box-car-detail .header .social {
+  margin-top: -32px;
+}
+.box-car-detail .header .social a {
+  margin-right: 15px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+}
+.box-car-detail .box-photo-parameter .box-right .price {
+  font-weight: bold;
+  font-size: 22px;
+  color: #2070d2;
+}
+.box-car-detail .box-photo-parameter .box-right .price-drop-alert {
+  background: #fff0e6;
+  color: #f60;
+  text-align: center;
+  width: 100%;
+  height: 30px;
+  border-radius: 3px;
+  line-height: 20px;
+  font-size: 14px;
+  padding: 5px 8px;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 500;
+  border: 0;
+}
+.box-car-detail .box-photo-parameter .box-right .check-new-car {
+  width: 100%;
+  height: 30px;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+  padding: 5px 8px;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 500;
+  border: 0;
+  background: #ecf8ed;
+  color: #39b54a;
+}
+.box-car-detail .box-photo-parameter .box-right ul {
+  padding: 0;
+}
+.box-car-detail .box-photo-parameter .box-right ul li {
+  list-style: none;
+  line-height: 35px;
+  border-bottom: 1px solid #eee;
+}
+.box-car-detail .box-photo-parameter .box-right ul li i {
+  color: #999;
+  padding-right: 25px;
+}
+.box-car-detail .box-pric-seller h4 {
+  background: #f9f9f9;
+  margin: 0;
+  height: 46px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333;
+  padding: 12px 20px;
+  border-bottom: 1px solid #e7e7e7;
+  text-transform: capitalize;
+}
+.box-car-detail .box-pric-seller .price-content {
+  padding-left: 20px;
+  color: #666;
+  margin-right: 15px;
+  margin-top: 10px;
+  display: inline-block;
+}
+.box-car-detail .box-pric-seller .price-number {
+  color: #2070D2;
+  font-weight: bold;
+  padding-left: 85px;
+  margin-top: 10px;
+  display: inline-block;
+}
+.box-car-detail .box-pric-seller ul {
+  padding: 0px;
+  padding-left: 35px;
+}
+.box-car-detail .box-pric-seller ul li {
+  list-style: none;
+}
+.box-car-detail .box-pric-seller .head-acc {
+  padding-top: 15px;
+}
+.box-car-detail .box-pric-seller .head-acc img {
+  width: 46px;
+  height: 46px;
+  float: left;
+  font-size: 20px;
+  text-align: center;
+  background: #f4f4f4;
+  color: #ddd;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+.box-car-detail .box-pric-seller .head-acc .small {
+  margin-left: 56px;
+  line-height: 24px;
+}
+.box-car-detail .box-pric-seller .head-acc .title {
+  background: white;
+  border: none;
+  margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  color: #666;
+  padding-top: 0px;
+}
+.box-car-detail .box-pric-seller .head-acc .title .name {
+  font-weight: bold;
+  color: #2070d2;
+  margin-right: 6px;
+}
+.box-car-detail .box-pric-seller .head-acc .title .local {
+  color: #999;
+  font-weight: 400 !important;
+  font-size: 14px;
+  margin-left: 6px;
+}
+.box-car-detail .box-pric-seller .head-acc .wrap-icon {
+  margin-top: -20px;
+}
+.box-car-detail .box-pric-seller .head-acc .icon-check {
+  color: green;
+  padding-left: 20px;
+}
+.box-car-detail .box-pric-seller .head-acc .icon-check i {
+  padding-right: 10px;
+}
+.box-car-detail .box-pric-seller .description {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.box-car-detail .box-pric-seller .description p span {
+  margin: 0;
+  height: 30px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px 20px;
+  line-height: 20px;
+  font-size: 14px;
+  background: none #f3f3f3;
+  display: inline-block;
+  min-width: 108px;
+  margin-right: 10px;
+}
+.box-car-detail .box-pric-seller .description .note {
+  display: inline-block;
+  background: #fff2b7;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #a94727;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  width: 98%;
+}
+
+.color-icon {
+  color: #999;
+}
+.color-icon i {
+  padding-right: 8px;
+}
+.color-icon a {
+  color: #2070d2 !important;
+}
+
+.seller-inf-btn p {
+  text-align: center;
+  margin-bottom: 7px;
+}
+.seller-inf-btn p i {
+  padding-right: 5px;
+}
+.seller-inf-btn .make-an-offer {
+  background: #39b54a;
+  color: white;
+  line-height: 35px;
+  width: 200px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.seller-inf-btn .tel-number {
+  background: #2070d2;
+  color: white;
+  line-height: 35px;
+  width: 200px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.seller-inf-btn .chat-with-seller {
+  color: #39b54a;
+  border: 1px solid #39b54a;
+  line-height: 35px;
+  width: 200px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.seller-inf-btn .listing-seller {
+  color: #2070d2;
+  border: 1px solid #2070d2;
+  line-height: 35px;
+  width: 200px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.car-services .heading {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
+}
+
+.wrap-content-service {
+  padding-left: 15px;
+}
+.wrap-content-service .header-content {
+  padding-top: 15px;
+  padding-left: 10px;
+}
+.wrap-content-service .content-right {
+  background: #ecf8ee;
+  padding: 0 10px 10px 10px;
+}
+.wrap-content-service .content-right h4 {
+  font-weight: bold;
+  padding-top: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.wrap-content-service .content-right ul {
+  padding: 0;
+}
+.wrap-content-service .content-right ul li {
+  list-style: none;
+}
+.wrap-content-service .content-left ul {
+  padding: 0px;
+}
+.wrap-content-service .content-left ul li {
+  list-style: none;
+}
+.wrap-content-service .content-left ul li .lable {
+  float: left;
+  width: 200px;
+  line-height: 44px;
+  font-weight: normal;
+  font-size: 16px;
+  color: #333;
+  text-align: left;
+}
+.wrap-content-service .content-left ul li .small {
+  margin-left: 200px;
+  position: relative;
+}
+.wrap-content-service .note {
+  display: inline-block;
+  background: #fff2b7;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #a94727;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  width: 94%;
+  margin-left: 18px;
+}
+
+.box-tag p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+  float: left;
+  width: 50px;
+}
+.box-tag .tag {
+  margin-left: 50px;
+}
+.box-tag .tag a {
+  float: left;
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+  float: left;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2070d2;
+  padding: 5px 9px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.box-recommend-product {
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+}
+.box-recommend-product h3 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.box-recommend-product .wrap-img img {
+  height: 95px;
+  padding-left: 10px;
+}
+.box-recommend-product .wrap-content {
+  margin-top: -8px;
+  margin-left: 10px;
+}
+.box-recommend-product .wrap-content a {
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+}
+.box-recommend-product .wrap-content .price {
+  font-weight: bold;
+  font-size: 22px;
+  color: #2070d2;
+  margin-bottom: 0px;
+}
+.box-recommend-product .wrap-content .location {
+  color: #999;
+  font-weight: 400 !important;
+  font-size: 14px;
+}
+.box-recommend-product .wrap-content .location i {
+  padding-right: 10px;
+}
+
+.safe-tips .top {
+  background: #ebf7ed;
+  border-radius: 5px;
+  padding: 10px 0px 15px 15px;
+}
+.safe-tips .top p {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.safe-tips .top ul {
+  padding-left: 17px;
+  margin-bottom: 0px;
+}
+.safe-tips .top ul li {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+.safe-tips .note-bottom {
+  background: #fff2b7;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #a94727;
+  padding: 10px 0px 1px 15px;
+  border-radius: 5px;
+}
+
+.same-model .product:hover .product {
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+}
+.same-model h3 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
+}
+.same-model a {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 32px;
+  text-transform: none;
+  color: #2070D2;
+}
+.same-model h4 {
+  color: #515356;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 8px;
+  height: 52px;
+}
+.same-model .location {
+  color: #999;
+  font-weight: 400 !important;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.same-model .location i {
+  padding-right: 10px;
+}
+.same-model .price {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 26px;
+  margin-bottom: 5px;
+  color: #515356;
+}
+.same-model p {
+  color: #999;
+}
+.same-model .info {
+  padding-left: 10px;
+}
+
+.same-price h3 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
+}
+.same-price a {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 32px;
+  text-transform: none;
+  color: #2070D2;
+}
+.same-price .info {
+  padding-left: 5px;
+  padding-top: 5px;
+}
+.same-price .info h4 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  color: #333;
+  margin-bottom: 8px;
+}
+.same-price .info p {
+  color: #2070d2;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+/*# sourceMappingURL=cardetail.css.map */
